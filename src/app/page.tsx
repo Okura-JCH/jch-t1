@@ -43,7 +43,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="mt-4 mb-4 ml-8 mr-8  min-h-screen">
+    <div className="mt-4 mb-4 ml-8 mr-8 min-h-screen">
       <h2 className="text-2xl font-bold mb-4">人気のやつ</h2>
       <Swiper
         spaceBetween={100}
