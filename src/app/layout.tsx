@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Suspense } from 'react'
 
 import TopBar from "./top-bar";
 
@@ -13,8 +14,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: Readonly<{
   children: React.ReactNode;
+  modal: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -22,9 +25,15 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen">
           <TopBar />
           <main className="flex-grow pt-20">
+            <Suspense>
             {children}
+            </Suspense>
           </main>
         </div>
+        <Suspense>
+
+        {modal}
+        </Suspense>
       </body>
     </html>
   );
