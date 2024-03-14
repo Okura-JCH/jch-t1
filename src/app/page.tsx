@@ -14,6 +14,26 @@ export default function Home() {
       headline: "二番目のヘッドライン",
       description: "二番目の説明文です。このテキストはサンプルです。",
     },
+    {
+      imageUrl: "https://placehold.jp/300x300.png",
+      headline: "三番目のヘッドライン",
+      description: "三番目の説明文です。このテキストはサンプルです。",
+    },
+    {
+      imageUrl: "https://placehold.jp/300x300.png",
+      headline: "四番目のヘッドライン",
+      description: "四番目の説明文です。このテキストはサンプルです。",
+    },
+    {
+      imageUrl: "https://placehold.jp/300x300.png",
+      headline: "五番目のヘッドライン",
+      description: "五番目の説明文です。このテキストはサンプルです。",
+    },
+    {
+      imageUrl: "https://placehold.jp/300x300.png",
+      headline: "六番目のヘッドライン",
+      description: "六番目の説明文です。このテキストはサンプルです。",
+    },
     // 他のセットを追加
   ];
 
